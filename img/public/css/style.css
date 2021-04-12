@@ -88,7 +88,11 @@ nav{
 
 background-color: red;
 width: 100%;
+height: 230px;
 display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 
 
@@ -99,7 +103,8 @@ display: flex;
 .red1>img{
 
     display: flex;
-    position: absolute;
+   
+    
     
 
 }
@@ -118,6 +123,47 @@ h1{
     justify-content: space-evenly;
     color: white;
     width: 100%;
+}
+
+.white1>h1{
+    color: black;
+    position: absolute;
+    display: flex;
+}
+
+
+.troisImg1{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    /* justify-content: space-between; */
+
+}
+
+
+/* red2 */
+
+
+
+.red2{
+
+display: flex;
+position: absolute;
+background-color: red;
+
+}
+
+.red2>:first-child{
+    color: white;
+}
+
+
+.red2>p{
+    color: white;
+}
+
+.red2>p{
+   margin-left: 50px;
 }
 
 /* petit 320px */
@@ -156,3 +202,104 @@ margin-top: 33%;
 font-size: 10px;
 
 }
+
+.white1>h1{
+
+font-size: 15px;
+margin-top: 20px;
+margin-left: 110px;
+
+
+
+}
+
+
+.troisImg1{
+    width: 30px;
+    
+}
+
+.troisImg1>:first-child{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 30px;
+}
+
+.troisImg1>:nth-child(2){
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 30px;
+
+}
+
+.troisImg1>:nth-child(3){
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 30px;
+
+
+}
+
+
+.troisImg2{
+    width: 30px;
+    display: flex;
+    position: absolute;
+    
+}
+
+.troisImg2>:first-child{
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 30px;
+}
+
+.troisImg2>:nth-child(2){
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 30px;
+
+}
+
+.troisImg2>:nth-child(3){
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 30px;
+
+    
+}
+
+
+.red2{
+
+    margin-top: 150px;
+    
+    }
+
+}
+
+
+/* intermediaire Tablet */
+
+
+@media (min-width:768px) and (max-width: 1006px){
+
+
+   nav{
+
+    width: 60em;
+
+
+   }
+
+   .red1{
+       width: 60em;
+   }
+
+.red1>img{
+    width: 50px;
+}
+
+}
+
+
